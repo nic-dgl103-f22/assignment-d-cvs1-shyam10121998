@@ -1,0 +1,38 @@
+<!-- Give the card a background colour of hsl(234, 12%, 34%).
+Give the card the same margin and padding as card one.
+Change the width of card so that it matches the visual width of card one.
+Round the corners of the card by a 30px radius.
+Make the card's h2 and p elements white;
+Play with background properties:
+Using the background CSS property, add a gradient to the card's background. Go to https://cssgradient.io/ to create a gradient that you like.
+Give the card a background image that uses the elephant image available in the images folder (the background image will hide the gradient).
+Try out different background-size values until you find one that you like: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size.
+Combine your gradient with the image by copying and pasting the gradient in front of the image url - don't forget the comma in between the two.
+Ex: background-image: linear-gradient(356deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.022846638655462215) 100%), url('images/elephants.jpeg');
+Just for fun, see what happens when you apply filter: grayscale(100%); to the card so that the whole card becomes grayscale. When you are finished, but before the grayscale filter, the card should lo -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Exercise</title>
+    <link rel="stylesheet" href="Assignment_D_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <article class="card-one">
+        <img src="claireguiot.jpeg" width="80" alt="Claire Guiot">
+        <h2>Claire Guiot</h2>
+        <p>Faculty, DIGITAL Design + Development <br /> North Island College</p>
+    </article>
+
+    <article class="card-two">
+        <h2>Top facts about Elephants</h2>
+        <p>Ten incredible facts that will blow your mind</p>
+    </article>
+</body>
+
+</html>
